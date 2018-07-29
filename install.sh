@@ -1,6 +1,6 @@
-echo ===>Installing Video_Wallpaper depedence - mplayer
+echo "===>Installing Video_Wallpaper depedence - mplayer"
 sudo apt install mplayer
-echo ===>Installing Video_Wallpaper depedence - xwinwrap
+echo "===>Installing Video_Wallpaper depedence - xwinwrap"
 sudo dpkg -i xwinwrap64.deb
 echo Finish installing
 echo '''
@@ -20,4 +20,8 @@ $ python3 wallpaper.py [sound] [volume]
 $ python3 wallpaper.py -h
 display this screen
 ============================================
+$ python3 wallpaper-setup.py
+Set the folder with videos that you want to
+set as your background
+===========================================
 '''

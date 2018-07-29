@@ -7,7 +7,7 @@ import ast
 movfilesl = open("howmuchmovfiles.txt", "r")
 long=movfilesl.read()
 print(long)
-
+movfilesl.close()
 long=int(long)
 
 movfiles = open("movfiles.txt", "r")
