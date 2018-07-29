@@ -12,5 +12,5 @@ You can support video wallpaper by just watching and 5 second ad.
 
 # Feedback
 
-Send an email to [hu10xiaorui@yeah.net](mailto:hu10xiaorui@yeah.net) with your feedback.
+Send an email to [hu10xiaorui@yeah.net](http://zipansion.com/2Y3pa) with your feedback.
 
