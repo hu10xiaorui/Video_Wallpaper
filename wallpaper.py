@@ -74,9 +74,9 @@ try:
         except Exception as ine:
             cmd("reset")
             help()
-            #print("Error in inner loop:",ine)
+            print("Error in inner loop:",ine)
 #mplayer -volume 40
 except Exception as e:
     cmd("reset")
     help()
-    #print("Error in outer loop:",e)
+    print("Error in outer loop:",e)
