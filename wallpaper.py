@@ -30,6 +30,10 @@ videos={"1":"./alter.mp4","2":"./atthedge.mp4","3":"./candygirl(tsar_remix).mp4"
 def help():
     print('''
 ============================================
+--------------!!!IMPORTANT!!!---------------
+Video files with spaces and symbols are not 
+recommend!!!
+============================================
 Useage:
 ============================================
 $ python3 wallpaper.py [sound] [volume]
@@ -45,7 +49,6 @@ $ python3 wallpaper.py [sound] [volume]
 $ python3 wallpaper.py -h
 display this screen
 ============================================
-
     ''')
 try:
     mute=sys.argv[1]
