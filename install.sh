@@ -1,7 +1,13 @@
 echo "===>Installing Video_Wallpaper depedence - mplayer"
 sudo apt install mplayer
 echo "===>Installing Video_Wallpaper depedence - xwinwrap"
-sudo dpkg -i xwinwrap64.deb
+sudo apt-get install xorg-dev build-essential libx11-dev x11proto-xext-dev libxrender-dev libxext-dev
+git clone https://github.com/ujjwal96/xwinwrap.git
+cd xwinwrap
+make
+sudo make install
+make clean
+
 echo Finish installing
 echo '''
 ============================================
